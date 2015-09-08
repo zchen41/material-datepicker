@@ -1,0 +1,84 @@
+.dp-container {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-5em;
+	margin-left:-4em;
+	font-family:roboto;
+	padding-bottom:.5em;
+	width:10.3em;
+	font-size:2em;
+	box-shadow:0 2px 5px rgba(0,0,0,0.26);
+	font-family:Roboto;
+	font-weight:400;
+	transition:max-height .5s;
+}
+
+.dp-header {
+	height:2em;
+	background-color:#2196F3;
+	color:white;
+}
+
+.dp-month {
+	margin:auto;
+	font-size: .6em;
+	width:8em;
+	text-align:center;
+	padding-top:1.1em;
+}
+
+.dp-left {
+	position:absolute;
+	left:.4em;
+	top:.5em;
+}
+
+.dp-right {
+	position:absolute;
+	right:.4em;
+	top:.5em;
+}
+
+.dp-button {
+	height:1em;
+	width:1em;
+	border-radius:100%;
+	text-align:center;
+	cursor:pointer;
+}
+
+.dp-button > i {
+	margin-top:calc(50% - 12px);
+}
+
+.dp-body {
+	margin-top:0.25em;
+	margin-left:0.25em;
+}
+
+.dp-label {
+	color:lightgray;	
+}
+
+.dp-spacer {
+	font-size:0.5em;
+	height:2.4em;
+	width:2.4em;
+	margin:.2em;
+	border-radius:100%;
+	text-align:center;
+	line-height:2.4em;
+	float:left;
+}
+
+.dp-day {
+	color:gray;
+	font-weight:500;
+	transition:background-color .8s, color .8s;
+}
+
+.dp-selected-day {
+	color:white;
+	background-color:#42A5F5;	
+}
